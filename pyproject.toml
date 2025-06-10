@@ -9,5 +9,6 @@ dependencies = [
     "ipywidgets>=8.1.7",
     "openpyxl>=3.1.5",
     "pyarrow>=20.0.0",
+    "requests>=2.32.4",
     "votekit>=3.1.0",
 ]
