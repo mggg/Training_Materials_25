@@ -6,6 +6,10 @@ dist/
 wheels/
 *.egg-info
 
+# Other files used for reference and testing
+dev_files
+
+
 # Virtual environments
 .venv
 .envrc
