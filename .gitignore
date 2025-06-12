@@ -8,7 +8,8 @@ wheels/
 
 # Other files used for reference and testing
 dev_files
-
+selected*.csv
+selected*.xlsx
 
 # Virtual environments
 .venv
