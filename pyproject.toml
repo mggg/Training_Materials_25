@@ -1,5 +1,5 @@
 [project]
-name = "Training_Materials_25" 
+name = "Training_Materials" 
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -11,5 +11,5 @@ dependencies = [
     "openpyxl>=3.1.5",
     "pyarrow>=20.0.0",
     "requests>=2.32.4",
-    "votekit>=3.1.0",
+    "votekit>=3.2.0",
 ]
