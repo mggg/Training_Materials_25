@@ -1,5 +1,23 @@
 #!/usr/bin/env bash
 
+# Trap Ctrl-C and kill all background jobs
+trap 'echo .; echo "Keyboard interrupt detected. Exiting..."; kill 0; exit 1;' SIGINT
+
+NCPUS=$(nproc)  # Get the number of available CPU cores
+
+# We want to control the number of jobs that we run in parallel so that we 
+# don't overwhelm our system.
+# I will limit the number of jobs to a maximum of 10, but you can change this
+# to whatever you would prefer. I also try to leave a couple of cores free so
+# that I don't accidentally lock up the system.
+if [ "$NCPUS" -le 2 ]; then
+    MAX_JOBS=1
+elif [ "$NCPUS" -gt 11 ]; then
+    MAX_JOBS=10
+else
+    MAX_JOBS=$((NCPUS - 2))
+fi
+
 MAX_JOBS=10
 
 num_voters=1000

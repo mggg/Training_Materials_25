@@ -1,7 +1,22 @@
 #!/usr/bin/env bash
 
+# Trap Ctrl-C and kill all background jobs
+trap 'echo .; echo "Keyboard interrupt detected. Exiting..."; kill 0; exit 1;' SIGINT
 
-MAX_JOBS=10
+NCPUS=$(nproc)  # Get the number of available CPU cores
+
+# We want to control the number of jobs that we run in parallel so that we 
+# don't overwhelm our system.
+# I will limit the number of jobs to a maximum of 10, but you can change this
+# to whatever you would prefer. I also try to leave a couple of cores free so
+# that I don't accidentally lock up the system.
+if [ "$NCPUS" -le 2 ]; then
+    MAX_JOBS=1
+elif [ "$NCPUS" -gt 11 ]; then
+    MAX_JOBS=10
+else
+    MAX_JOBS=$((NCPUS - 2))
+fi
 
 
 # Here we assign the parameters that we would like to use to variables.
@@ -12,6 +27,7 @@ num_voters=1000
 num_seats=3
 num_iterations=10
 
+# A nice little counter to keep track of how many jobs we have kicked off.
 current_job=0
 
 for ballot_generator in "slate_pl" "slate_bt" "cambridge"
@@ -20,6 +36,8 @@ for election_type in "stv" "borda" "plurality"
 do
 for settings_file in $(find ./vk_run_settings/ -type f -name "*.json")
 do
+    # Small bash quirk: arithmetic operations are a bit weird.
+    # This just increments the current job counter by 1.
     ((current_job++))
 
     # A helpful way to split the string so that we can get the settings out to make well-named
@@ -32,6 +50,7 @@ do
     output_file="./outputs/${outputs_base_string}.jsonl"
     results_file="./results/${outputs_base_string}.jsonl"
 
+    # This is like print in bash
     echo "Running job no. ${current_job}: ${outputs_base_string}"
 
     # Here we are invoking the cli that we set up in our python

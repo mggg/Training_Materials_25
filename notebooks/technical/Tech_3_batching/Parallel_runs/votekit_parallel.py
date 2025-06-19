@@ -24,13 +24,13 @@ if __name__ == "__main__":
         "cambridge",
     ]
     num_voters = [1000]
-    num_seats = [3]
 
     election_types = [
         "stv",
         "borda",
         "plurality",
     ]
+    num_seats = [3]
     num_iterations = [10]
 
     full_settings_list = []
