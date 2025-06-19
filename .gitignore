@@ -6,6 +6,9 @@ dist/
 wheels/
 *.egg-info
 
+# Other automatically generated files
+.DS_Store
+
 # Other files used for reference and testing
 dev_files
 selected*.csv
