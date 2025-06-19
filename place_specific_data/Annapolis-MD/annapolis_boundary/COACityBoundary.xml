@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin/>
+                <pubdate>unknown</pubdate>
+                <title>adm_Municipal_Boundary_cityonly</title>
+                <geoform>vector digital data</geoform>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>Representation of the boundary between Anne Arundel County, City of Annapolis and The United States Naval Academy.</abstract>
+            <purpose>For use in cartographic representation and analysis.</purpose>
+        </descript>
+        <timeperd>
+            <timeinfo>
+                <sngdate>
+                    <caldate>20080101</caldate>
+                </sngdate>
+            </timeinfo>
+            <current>ground condition</current>
+        </timeperd>
+        <status>
+            <progress>In work</progress>
+            <update>As needed</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-76.539806</westbc>
+                <eastbc>-76.470948</eastbc>
+                <northbc>39.003084</northbc>
+                <southbc>38.942303</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>City/County Line</themekt>
+                <themekey>City/County Boundary</themekey>
+            </theme>
+        </keywords>
+        <accconst>Signature of Data Sharing Agreement</accconst>
+        <useconst>By acceptance of this map material, you agree as follows: This map material (the “material”) is made available by Annapolis, Maryland (the “City”) as a public service. The material is for reference purposes only, and the City makes no representatives, warranties, or guarantees of the accuracy of the material. THE City MAKES NO AND DISCLAIMS ALL EXPRESS AND IMPLIED WARRANTIES RELATING TO THE MATERIAL, INCLUDING WARRANTIES OF MERCHANTABILITY, INTEGRATION, TITLE, AND FITNESS FOR A PARTICULAR PURPOSE. You release the City, its agents, servants, and employees, from any and all liability related to the material or any of it, including its accuracy, availability, use, and misuse. In no event shall the City be liable for any direct, indirect, incidental, consequential, or other damages, including savings, profits, fees, costs, loss of data, or business interruption, related in any way to the material or any of it, including its accuracy, availability, use, and misuse. The material is in the public domain and may be copied without permission. Citation to the source is requested. Any errors or omissions in the material should be reported to the City of Annapolis Management of Information Technology.</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>City of Annapolis, MD</cntorg>
+                </cntorgp>
+                <cntpos>GIS Coordinator</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>160 Duke of Gloucester St</address>
+                    <city>Annapolis</city>
+                    <state>Maryland</state>
+                    <postal>21401</postal>
+                    <country>United States of America</country>
+                </cntaddr>
+                <cntvoice>(410) 295-7806</cntvoice>
+                <cntvoice>(410) 295-7308</cntvoice>
+                <cntfax>(410) 295-7806</cntfax>
+                <cntemail>swampler@annapolis.gov</cntemail>
+                <hours>8:00 AM to 5:00 PM</hours>
+            </cntinfo>
+        </ptcontac>
+        <datacred/>
+        <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.6.1.9270</native>
+    </idinfo>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>GT-polygon composed of chains</sdtstype>
+                <ptvctcnt>1</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>adm_Municipal_Boundary_cityonly</enttypl>
+            </enttyp>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                                    
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>MUNICIPALBOUNDARY_ID</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>COMMENT</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>JURISD</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>DISPUTED</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>Shape_STArea__</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>Shape_STLength__</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>Shape</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        
+                    <udom>Coordinates defining the features.</udom>
+                                    
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Shape.STArea()</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>Shape.STLength()</attrlabl>
+            </attr>
+        </detailed>
+    </eainfo>
+    <distinfo>
+        <distrib>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>City of Annapolis, MD</cntorg>
+                </cntorgp>
+                <cntpos>GIS Coordinator</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>160 Duke of Gloucester St</address>
+                    <city>Annapolis</city>
+                    <state>Maryland</state>
+                    <postal>21401</postal>
+                    <country>United States of America</country>
+                </cntaddr>
+                <cntvoice>(410) 295-7308</cntvoice>
+                <cntvoice>(410) 295-7806</cntvoice>
+                <cntvoice>(410) 263-7945</cntvoice>
+                <cntfax>(410) 295-7806</cntfax>
+                <hours>8:00 AM to 5:00 PM Monday thru Friday</hours>
+            </cntinfo>
+        </distrib>
+        <resdesc>Data Available on CD from City of Annapolis Cashier Office</resdesc>
+        <distliab>By acceptance of this map material, you agree as follows: This map material (the “material”) is made available by Annapolis, Maryland (the “City”) as a public service. The material is for reference purposes only, and the City makes no representatives, warranties, or guarantees of the accuracy of the material. THE City MAKES NO AND DISCLAIMS ALL EXPRESS AND IMPLIED WARRANTIES RELATING TO THE MATERIAL, INCLUDING WARRANTIES OF MERCHANTABILITY, INTEGRATION, TITLE, AND FITNESS FOR A PARTICULAR PURPOSE. You release the City, its agents, servants, and employees, from any and all liability related to the material or any of it, including its accuracy, availability, use, and misuse. In no event shall the City be liable for any direct, indirect, incidental, consequential, or other damages, including savings, profits, fees, costs, loss of data, or business interruption, related in any way to the material or any of it, including its accuracy, availability, use, and misuse. The material is in the public domain and may be copied without permission. Citation to the source is requested. Any errors or omissions in the material should be reported to the City of Annapolis Management of Information Technology.</distliab>
+        <custom>Must pick up CD from City of Annapolis Cashier Office</custom>
+    </distinfo>
+    <metainfo>
+        <metd>20220422</metd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>City of Annapolis, MD</cntorg>
+                    <cntper>Josh Sturgill</cntper>
+                </cntorgp>
+                <cntpos>GIS Technician</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>160 Duke of Gloucester St</address>
+                    <city>Annapolis</city>
+                    <state>Maryland</state>
+                    <postal>21401</postal>
+                    <country>United States of America</country>
+                </cntaddr>
+                <cntvoice>(410) 295-7806</cntvoice>
+                <cntvoice>(410) 295-7308</cntvoice>
+                <cntfax>(410) 295-7806</cntfax>
+                <cntemail>jesturgill@annapolis.gov</cntemail>
+                <hours>8:00 AM to 5:00 PM Monday thru Friday</hours>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+        <metac>Signature of Data Sharing Agreement</metac>
+        <metuc>By acceptance of this map material, you agree as follows: This map material (the “material”) is made available by Annapolis, Maryland (the “City”) as a public service. The material is for reference purposes only, and the City makes no representatives, warranties, or guarantees of the accuracy of the material. THE City MAKES NO AND DISCLAIMS ALL EXPRESS AND IMPLIED WARRANTIES RELATING TO THE MATERIAL, INCLUDING WARRANTIES OF MERCHANTABILITY, INTEGRATION, TITLE, AND FITNESS FOR A PARTICULAR PURPOSE. You release the City, its agents, servants, and employees, from any and all liability related to the material or any of it, including its accuracy, availability, use, and misuse. In no event shall the City be liable for any direct, indirect, incidental, consequential, or other damages, including savings, profits, fees, costs, loss of data, or business interruption, related in any way to the material or any of it, including its accuracy, availability, use, and misuse. The material is in the public domain and may be copied without permission. Citation to the source is requested. Any errors or omissions in the material should be reported to the City of Annapolis Management of Information Technology.</metuc>
+    </metainfo>
+</metadata>
